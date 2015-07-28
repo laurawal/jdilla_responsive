@@ -4,6 +4,17 @@ h1 {
   font-size: 11em;
 }
 
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+h2 {
+padding-bottom: 2.5em;
+font-size: 1.7em;
+text-decoration: underline;
+text-decoration-style: dotted;
+}
+
 /* Nav Bar*/
 
 .navbar-default .navbar-brand {
@@ -48,7 +59,7 @@ img {
  
 }
 
-
+/*About Section*/
 .about-section {
     height: 100%;
     padding-top: 150px;
@@ -57,12 +68,20 @@ img {
     font-family: 'Karla', sans-serif;
 }
 
+.bio {
+  font-size: 2em;
+  padding-bottom: 3em;  
+}
+
+
 .video-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #024692;;
     font-family: 'Karla', sans-serif;
+    font-size: 2em;
+    color: white;
 }
 
 .quotes-section {
@@ -71,6 +90,7 @@ img {
     text-align: center;
     background: #eee;
     font-family: 'Karla', sans-serif;
+    font-size: 2em;
 }
 
 @media(min-width:767px) {
