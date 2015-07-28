@@ -20,18 +20,30 @@ body {
 /*Intro section*/
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 91px;
     text-align: center;
     background: #fff;
 }
 
 .fullscreen-img-container{
   width:100%;
+  z-index: -1;
+  position: relative; 
 }
 
 img {
   width: 100%;
+  position: relative;
 }
+
+.intro-text-img {
+  position: absolute;
+  width: 100%;
+  color: white;
+  top: -32em;
+ 
+}
+
 
 .about-section {
     height: 100%;
