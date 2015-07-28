@@ -16,11 +16,21 @@ body {
     }
 }
 
+
+/*Intro section*/
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+}
+
+.fullscreen-img-container{
+  width:100%;
+}
+
+img {
+  width: 100%;
 }
 
 .about-section {
