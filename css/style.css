@@ -8,6 +8,10 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
+.blue-title {
+  color: #024692;
+}
+
 h2 {
 padding-bottom: 1.2em;
 font-size: 1.7em;
@@ -27,6 +31,9 @@ body {
   height: 100%;
 }
 
+li.active {
+  color: #024692;
+}
 
 /*Intro section*/
 .intro-section {
@@ -86,6 +93,7 @@ img {
     font-family: 'Karla', sans-serif;
     font-size: 2em;
     color: white;
+    padding-bottom: 3em; 
 }
 
 .video-wrapper {
@@ -111,7 +119,24 @@ img {
     background: #eee;
     font-family: 'Karla', sans-serif;
     font-size: 2em;
+    padding-bottom: 3em; 
 }
+
+.quote-name {
+  color: #337ab7;
+}
+
+.quote {
+  padding-right: 10px;
+}
+
+
+.quote2 {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+/*nav transition*/
 
 @media(min-width:767px) {
     .navbar {
