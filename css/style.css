@@ -1,4 +1,4 @@
-/*global*/
+/******* global *******/
 
 p {
   font-family: 'Karla', sans-serif;
@@ -11,10 +11,16 @@ font-size: 1.7em;
 text-decoration: underline;
 text-decoration-style: dotted;
 font-family: 'Source Code Pro', ;
-
 }
 
-/* Nav Bar*/
+section {
+  height: 100%;
+  padding-top: 91px;
+  text-align: center;
+}
+
+
+/******* Nav Bar *******/
 
 .blue-title {
   color: #024692;
@@ -42,7 +48,7 @@ body {
    color: #024692; 
 }
 
-/*Intro section*/
+/******* Intro section *******/
 
 h1 {
   font-family: 'Source Code Pro', ;
@@ -50,12 +56,6 @@ h1 {
   font-size: 11em;
 }
 
-.intro-section {
-    height: 100%;
-    padding-top: 91px;
-    text-align: center;
-    background: #fff;
-}
 
 .fullscreen-img-container{
   width:100%;
@@ -81,14 +81,10 @@ img {
   width: 100%;
   color: white;
   top: -39em;
- 
 }
 
-/*About Section*/
+/******* About Section *******/
 .about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
     background: #eee;
     font-family: 'Karla', sans-serif;
 }
@@ -98,11 +94,8 @@ img {
   padding-bottom: 3em;  
 }
 
-/*Video Section*/
+/******* Video Section *******/
 .video-section {
-    height: 100%;
-    padding-top: 91px;
-    text-align: center;
     background: #024692;;
     font-family: 'Karla', sans-serif;
     font-size: 2em;
@@ -125,11 +118,8 @@ img {
 }
 
 
-/*Quotes Section*/
+/******* Quotes Section *******/
 .quotes-section {
-    height: 100%;
-    padding-top: 91px;
-    text-align: center;
     background: #eee;
     font-family: 'Karla', sans-serif;
     font-size: 2em;
@@ -150,7 +140,7 @@ img {
   border-right: 1px solid white;
 }
 
-/*nav transition*/
+/******* nav transition *******/
 
 @media(min-width:767px) {
     .navbar {
@@ -164,4 +154,38 @@ img {
     .top-nav-collapse {
         padding: 0;
     }
+}
+
+/******* tweaks for mobile *******/
+
+@media(max-width: 500px) {
+
+  .quote2 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  }
+  .quote {
+  padding-bottom: 20px;
+  padding-right: 0px;
+  }
+
+  .intro-text-img {
+  position: absolute;
+  width: 100%;
+  color: white;
+  top: -13em;
+}
+  
+  h1 {
+  font-family: 'Source Code Pro', ;
+  font-weight: bold;
+  font-size: 5em;
+  }
+
+  h4 {
+  font-family: 'Source Code Pro', ;
+  font-size: 0.6em;
+  }
 }
